@@ -36,5 +36,7 @@ class SongsController < ApplicationController
 
   patch '/songs/:slug' do
 
+  end
+
 
 end
