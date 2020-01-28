@@ -3,5 +3,7 @@ module Slugifiable
 
     def slug(slug)
 
+    end
+
   end
 end
