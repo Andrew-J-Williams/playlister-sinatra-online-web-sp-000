@@ -4,6 +4,7 @@
 
 <h2>Genre Artists</h2>
 <% @genre.artists.each do |artist| %>
+  <a href="/artists/<%=artist.slug%>"
 <% end %>
 
 <h2>Genre Songs</h2>
