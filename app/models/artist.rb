@@ -7,4 +7,6 @@ class Artist < ActiveRecord::Base
     self.name.downcase.gsub(" ", "-")
   end
 
+  
+
 end
