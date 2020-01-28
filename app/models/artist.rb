@@ -1,3 +1,5 @@
+require 'slugifiable.rb'
+
 class Artist < ActiveRecord::Base
 
   include Slugifiable::InstanceMethod
