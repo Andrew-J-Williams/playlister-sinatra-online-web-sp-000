@@ -19,7 +19,7 @@ class SongsController < ApplicationController
   end
 
   get '/songs/:slug/edit' do
-    
+    @song = Song.find(params[:slug])
 
     erb :'/songs/edit'
   end
