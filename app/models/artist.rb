@@ -9,4 +9,6 @@ class Artist < ActiveRecord::Base
 
   def self.find_by_slug(slug)
 
+  end
+
 end
