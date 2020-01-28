@@ -1,4 +1,4 @@
-require 'slugifiable.rb'
+require '/concerns/slugifiable.rb'
 
 class Artist < ActiveRecord::Base
 
