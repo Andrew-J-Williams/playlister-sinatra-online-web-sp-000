@@ -18,9 +18,11 @@ class SongsController < ApplicationController
     erb :'songs/show'
   end
 
+  get '/songs/:slug/edit'
+
   post '/songs' do
     @song = Song.create(params[:song]) #Takes inputs and creates a song from it.
-    @song.artist = Artist.find_or_create_by(name: params[:artist][:name]) 
+    @song.artist = Artist.find_or_create_by(name: params[:artist][:name])
     @song.genre_ids = params[:genres]
     @song.save
 
