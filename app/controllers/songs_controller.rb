@@ -36,6 +36,8 @@ class SongsController < ApplicationController
 
   patch '/songs/:slug' do
 
+    flash[:message] = "Successfully updated song."
+    redirect("/songs/#{@song.slug}")
   end
 
 
