@@ -5,4 +5,6 @@ class Artist < ActiveRecord::Base
 
   def slug(slug)
 
+  end
+
 end
