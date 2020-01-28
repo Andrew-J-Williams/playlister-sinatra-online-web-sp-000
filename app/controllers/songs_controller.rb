@@ -5,6 +5,6 @@ class SongsController < ApplicationController
       erb :'/songs/index'
   end
 
-  get '/songs/:slug'
+  get '/songs/:slug' do
 
 end
